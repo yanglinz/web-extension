@@ -1,12 +1,12 @@
 {
-    "name": "Personal Web Extension",
-    "manifest_version": 3,
-    "version": "0.1",
-    "content_scripts": [
-        {
-            "matches": ["https://www.google.com/*"],
-            "exclude_matches": [],
-            "js": ["./src/google.js"]
-        }
-    ]
+  "name": "Personal Web Extension",
+  "manifest_version": 3,
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "exclude_matches": [],
+      "js": ["./src/google.js"]
+    }
+  ]
 }
