@@ -1,0 +1,8 @@
+{
+  "name": "web-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yanglinz/web-extension.git",
+  "author": "Yanglin Zhao <yz1876@gmail.com>",
+  "license": "MIT"
+}
