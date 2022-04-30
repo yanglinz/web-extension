@@ -4,9 +4,14 @@
   "version": "0.1",
   "content_scripts": [
     {
-      "matches": ["https://www.google.com/*"],
+      "matches": ["*://www.google.com/*"],
       "exclude_matches": [],
       "js": ["./src/google.js"]
+    },
+    {
+      "matches": ["*://www.nytimes.com/*"],
+      "exclude_matches": [],
+      "js": ["./src/news.js"]
     }
   ]
 }
