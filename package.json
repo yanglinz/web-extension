@@ -7,7 +7,7 @@
   "scripts": {
     "build": "parcel build manifest.json",
     "dev": "parcel watch manifest.json",
-    "format": "prettier --write '*.json' './src/**/*.js'"
+    "format": "prettier --write '*.json' './src/**/*.{css,js}'"
   },
   "devDependencies": {
     "@parcel/config-webextension": "^2.5.0",
