@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "parcel build manifest.json",
-    "format": "prettier --write '*.json' './src/*.js'"
+    "dev": "parcel watch manifest.json",
+    "format": "prettier --write '*.json' './src/**/*.js'"
   },
   "devDependencies": {
     "@parcel/config-webextension": "^2.5.0",
