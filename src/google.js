@@ -1,10 +1,4 @@
-function ready(fn) {
-  if (document.readyState != "loading") {
-    fn();
-  } else {
-    document.addEventListener("DOMContentLoaded", fn);
-  }
-}
+import { onReady } from "./lib/dom";
 
 const IGNORE_LIST = ["www.w3schools.com"];
 
@@ -20,4 +14,4 @@ function hideLinksByDomains(domains = IGNORE_LIST) {
   });
 }
 
-ready(hideLinksByDomains);
+onReady(hideLinksByDomains);

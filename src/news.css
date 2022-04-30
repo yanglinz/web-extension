@@ -1,0 +1,18 @@
+#app {
+  opacity: 0.99;
+}
+
+.InjectedInternetArchiveLink {
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.8);
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.InjectedInternetArchiveLink a {
+  display: inline-block;
+  padding: 20px;
+  color: #eee;
+}
